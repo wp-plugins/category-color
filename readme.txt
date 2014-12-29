@@ -1,10 +1,10 @@
 === Plugin Name ===
-Contributors: zayedbaloch, naeemnur
+Contributors: zayedbaloch, naeemnur,
 Donate link: http://radlabs.biz/
 Tags: category colors, meta box, taxonomy tag colors,
-Requires at least: 1.0
+Requires at least: 3.2
 Tested up to: 4.1
-Stable tag: trunk
+Stable tag: 1.0
 License: GPLv2 or later
 
 Easily set a custom color per Post Category and use the colors in your Wordpress templates to spice up your theme.
