@@ -66,6 +66,26 @@ Don't edit or remove the above lines, but add these lines in between instead:
 <h1 style="color: #<?php echo $rl_category_color; ?>;"><?php the_title(); ?></h1>
 <p style="background: #<?php echo $rl_category_color; ?>;">Awesome Category Color!</p>`
 
+= How add color in multiple categories or the_category() tag =
+Replace 
+
+`<?php the_category(); ?>`
+
+With
+
+`<?php
+    $categories = get_the_category();
+    $separator = ' / ';
+    $output = '';
+    if($categories){
+        foreach($categories as $category) {
+                $rl_category_color = rl_color($category->cat_ID);
+            $output .= '<a href="'.get_category_link( $category->term_id ).'" style="color:'.$rl_category_color.';">'.$category->cat_name.'</a>'.$separator;
+        }
+    echo trim($output, $separator);
+    }
+?>`
+
 = Why can't pick a color right away when creating a Category, but only when editing a Category? =
 
 Both for consistency and efficiency. First of all WordPress want to keep creating Categories sweet and simple with as little effort as possible. Adding Colors can be considered as customizing Categories, thus it would be more logical to show it in the Edit section only.
