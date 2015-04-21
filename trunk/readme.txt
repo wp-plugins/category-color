@@ -3,7 +3,7 @@ Contributors: zayedbaloch, naeemnur,
 Donate link: http://radlabs.biz/
 Tags: category colors, meta box, taxonomy tag colors,
 Requires at least: 3.2
-Tested up to: 4.1
+Tested up to: 4.2
 Stable tag: 1.1
 License: GPLv2 or later
 
