@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: zayedbaloch, naeemnur,
+Contributors: zayedbaloch, naeemnur, pixeldesign,
 Donate link: http://radlabs.biz/
 Tags: category colors, meta box, taxonomy tag colors,
 Requires at least: 3.2
