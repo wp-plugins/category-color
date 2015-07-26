@@ -4,7 +4,7 @@ Donate link: http://radlabs.biz/
 Tags: category colors, meta box, taxonomy tag colors,
 Requires at least: 3.2
 Tested up to: 4.2
-Stable tag: 1.1
+Stable tag: 1.2
 License: GPLv2 or later
 
 Easily set a custom color per Post Category and use the colors in your Wordpress templates to spice up your theme.
@@ -100,6 +100,9 @@ Second, when writing a Post you can also quick-add a new category. For consisten
 
 == Changelog ==
 
+= 1.2 =
+* Removed extra codes.
+
 = 1.1 =
 * Fixed multiple categories colors
 
@@ -107,6 +110,9 @@ Second, when writing a Post you can also quick-add a new category. For consisten
 * First Release
 
 == Upgrade Notice ==
+
+= 1.2 =
+* Removed extra codes.
 
 = 1.1 =
 * Fixed multiple categories colors
