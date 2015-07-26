@@ -3,7 +3,7 @@
 Plugin Name: Category Color
 Plugin URI: https://wordpress.org/plugins/category-color/
 Description: Easily set a custom color per Post Category and use the colors in your Wordpress templates to spice up your theme.
-Version: 1.1
+Version: 1.2
 Author: Zayed Baloch, Naeem Nur
 Author URI: http://www.radlabs.biz/
 License: GPL2+
