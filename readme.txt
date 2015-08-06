@@ -1,7 +1,7 @@
 === Plugin Name ===
 Contributors: zayedbaloch, naeemnur, pixeldesign,
-Donate link: http://radlabs.biz/
-Tags: category colors, meta box, taxonomy tag colors,
+Donate link: http://pixeldesign.io/
+Tags: category colors, meta box, taxonomy tag colors, post, page,
 Requires at least: 3.2
 Tested up to: 4.2
 Stable tag: 1.2
@@ -55,19 +55,19 @@ WORDPRESS_EXTRA_CODE_DONT_REMOVE_IT
 
 Don't edit or remove the above lines, but add these lines in between instead:
 
-`<?php  
+`<?php
     $category = get_the_category();
     $the_category_id = $category[0]->cat_ID;
 
     if(function_exists('rl_color')){
         $rl_category_color = rl_color($the_category_id);
     }
-?> 
+?>
 <h1 style="color: #<?php echo $rl_category_color; ?>;"><?php the_title(); ?></h1>
 <p style="background: #<?php echo $rl_category_color; ?>;">Awesome Category Color!</p>`
 
 = How add color in multiple categories or the_category() tag =
-Replace 
+Replace
 
 `<?php the_category(); ?>`
 
