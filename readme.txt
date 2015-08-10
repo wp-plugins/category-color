@@ -3,7 +3,7 @@ Contributors: zayedbaloch, naeemnur, pixeldesign,
 Donate link: http://pixeldesign.io/
 Tags: category colors, meta box, taxonomy tag colors, post, page,
 Requires at least: 3.2
-Tested up to: 4.2
+Tested up to: 4.3
 Stable tag: 1.2
 License: GPLv2 or later
 
